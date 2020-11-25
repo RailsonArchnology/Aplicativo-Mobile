@@ -27,13 +27,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.078" />
 
+    <TextView
+        android:id="@+id/textViewContact"
+        android:layout_width="67dp"
+        android:layout_height="24dp"
+        android:text="Contato"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="304dp" />
+
     <ImageView
-        android:id="@+id/imageViewButtons"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/buttons"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="175dp" />
+        android:id="@+id/imageViewContact"
+        android:layout_width="103dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/contato"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="119dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/usernameicon"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ImageView
+        android:id="@+id/imageViewInfo"
+        android:layout_width="112dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/info"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="523dp" />
 
     <ImageView
         android:id="@+id/imageViewMap"
@@ -55,80 +82,12 @@
         tools:layout_editor_absoluteY="304dp" />
 
     <ImageView
-        android:id="@+id/imageViewProfile"
-        android:layout_width="119dp"
-        android:layout_height="85dp"
-        app:srcCompat="@drawable/usernameicon"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="228dp" />
-
-    <TextView
-        android:id="@+id/textViewProfile"
-        android:layout_width="48dp"
-        android:layout_height="23dp"
-        android:text="Perfil"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="305dp" />
-
-    <ImageView
-        android:id="@+id/imageViewContact"
-        android:layout_width="103dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/contato"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="228dp" />
-
-    <TextView
-        android:id="@+id/textViewContact"
-        android:layout_width="67dp"
-        android:layout_height="24dp"
-        android:text="Contato"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="304dp" />
-
-    <ImageView
-        android:id="@+id/imageViewRegister"
-        android:layout_width="116dp"
-        android:layout_height="70dp"
-        app:srcCompat="@drawable/cadastroicon"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="382dp" />
-
-    <TextView
-        android:id="@+id/textViewRegister"
-        android:layout_width="73dp"
-        android:layout_height="23dp"
-        android:text="Cadastro"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="452dp" />
-
-    <ImageView
         android:id="@+id/imageViewSearch"
         android:layout_width="86dp"
         android:layout_height="72dp"
         app:srcCompat="@drawable/searchicon"
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="380dp" />
-
-    <TextView
-        android:id="@+id/textViewSearch"
-        android:layout_width="73dp"
-        android:layout_height="23dp"
-        android:text="Consulta"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="452dp" />
 
     <ImageView
         android:id="@+id/imageViewServices"
@@ -150,12 +109,12 @@
         tools:layout_editor_absoluteY="452dp" />
 
     <ImageView
-        android:id="@+id/imageViewInfo"
-        android:layout_width="112dp"
-        android:layout_height="67dp"
-        app:srcCompat="@drawable/info"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="523dp" />
+        android:id="@+id/imageViewRegister"
+        android:layout_width="116dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/cadastroicon"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="382dp" />
 
     <TextView
         android:id="@+id/textViewInfo"
@@ -167,5 +126,46 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="590dp" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="73dp"
+        android:layout_height="23dp"
+        android:text="Cadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <TextView
+        android:id="@+id/textViewSearch"
+        android:layout_width="73dp"
+        android:layout_height="23dp"
+        android:text="Consulta"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <ImageView
+        android:id="@+id/imageViewButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/buttons"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textViewProfile"
+        android:layout_width="48dp"
+        android:layout_height="23dp"
+        android:text="Perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="305dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
